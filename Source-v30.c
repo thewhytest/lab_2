@@ -4,7 +4,7 @@ int main()
 {
 	setlocale(LC_CTYPE, "RUS");
 	int N;
-	printf("введите время N в минутах");
+	printf("ГўГўГҐГ¤ГЁГІГҐ ГўГ°ГҐГ¬Гї N Гў Г¬ГЁГ­ГіГІГ Гµ");
 	scanf_s("%d", &N);
 
 	int t1 = N;
@@ -12,7 +12,7 @@ int main()
 	int t3 = N + 20;
 	int t4 = N + 30;
 	int totaltime = t1 + t2 + t3 + t4;
-	printf("общее время: %d минут\n", totaltime);
+	printf("Г®ГЎГ№ГҐГҐ ГўГ°ГҐГ¬Гї: %d Г¬ГЁГ­ГіГІ\n", totaltime);
 	return 0;
 
 }
