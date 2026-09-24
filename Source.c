@@ -7,15 +7,15 @@ int main()
 	int kg;
 	float result_g, result_b;
 	setlocale(LC_CTYPE, "RUS");
-	puts("Введите килограммы:");
+	puts("Р’РІРµРґРёС‚Рµ РєРёР»РѕРіСЂР°РјРјС‹:");
 	scanf("%d", &kg);
 
 
 	result_g = G * kg;
 	result_b = B * kg;
 
-	printf("%d галлоны - %.2f", kg, result_g);
-	printf("%d баррели - %.2f", kg, result_b);
+	printf("%d РіР°Р»Р»РѕРЅС‹ - %.2f", kg, result_g);
+	printf("%d Р±Р°СЂСЂРµР»Рё - %.2f", kg, result_b);
 
 	return 0;
 }
