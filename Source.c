@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <locale.h>
 #define		G	3.79
 #define		B	134.6
@@ -16,6 +17,7 @@ int main()
 
 	printf("%d галлоны - %.2f", kg, result_g);
 	printf("%d баррели - %.2f", kg, result_b);
+	system("pause");
 
 	return 0;
 }
